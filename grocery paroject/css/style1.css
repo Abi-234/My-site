@@ -1,0 +1,30 @@
+.products .product-slider
+{
+    border: 0px solid;
+    padding: 1rem;
+}
+.products .product-slider .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+.products .product-slider .box img
+{
+    height: 20rem;
+}
+.products .product-slider .box  h1
+{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.products .product-slider .box .price
+{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+}
+.products .product-slider .box .stars i
+{
+    font-size: 1.7rem;
+    color: orange;
+    padding: .5rem 0;
+}
